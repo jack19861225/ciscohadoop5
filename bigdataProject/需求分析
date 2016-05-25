@@ -1,0 +1,19 @@
+```   
+    用户分析需求
+     a. 报表分析，例如分析流量排名前10的网站，离线：OLAP
+        Hive＋Tez，，Spark SQL
+        Impala，Drill 非MapReduce引擎，并发性比较好
+
+     b. 查询需求：实时OLAP
+        1.查询条件比较简单，例如手机号＋时间范围
+        2.关键字查询，like，搜索
+        3.条件非常多，多条件
+        4.查询后统计
+        
+        Spark SQL，搜索引擎：Solr，ElasticSearch，Impala，Drill
+
+     c. 流式实时分析
+        例如产生一笔订单，就做一次统计
+         
+        Storm，Spark Streaming
+```        
