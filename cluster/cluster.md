@@ -1,4 +1,4 @@
-＃Hadoop 集群规划
+#Hadoop 集群规划
 
  ```
  Hadoop依赖的技术环境
